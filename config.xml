@@ -5,7 +5,7 @@ version="1"
 xmlns="http://www.w3.org/ns/widgets"
 xmlns:gap="http://phonegap.com/ns/1.0"
 >
-    <name>uLOL</name>
+    <name>Todo</name>
     
     <description>Test your sharp thinking skill with this hilarious app.</description>
     <author email="buryavrea@gmail.com" href="http://composhare.com">Howard Monares</author>
@@ -17,7 +17,7 @@ xmlns:gap="http://phonegap.com/ns/1.0"
     <gap:plugin name="cordova-plugin-admobpro" source="npm" />
 
     <!-- Customize your app and platform with the preference element. -->
-    <preference name="orientation"                value="landscape" />        <!-- all: default means both landscape and portrait are enabled -->
+    <preference name="orientation"                value="portrait" />        <!-- all: default means both landscape and portrait are enabled -->
     <preference name="target-device"              value="universal" />      <!-- all: possible values handset, tablet, or universal -->
     <preference name="fullscreen"                 value="true" />           <!-- all: hides the status bar at the top of the screen -->
     <preference name="webviewbounce"              value="false" />           <!-- ios: control whether the screen 'bounces' when scrolled beyond the top -->
